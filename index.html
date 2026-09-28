@@ -75,7 +75,7 @@
 
         });
 
-        $.getJSON("GEOJSON/toponimi.geojson", function (data) {
+        $.getJSON("geojson/toponimi.geojson", function (data) {
             toponimi.addData(data); // Menambahkan data ke dalam GeoJSON Point toponimi
             map.addLayer(toponimi); // Menambahkan GeoJSON Point toponimi ke dalam peta
         });
